@@ -87,10 +87,10 @@ void guessTheNumber()
     int tries_left = 4;  // Setting how many times the user is allowed to try
     int Guess;  // Declaring a variable to hold the users guess
 
+    std::cout << "Guess an integer between 0 and 10." << std::endl;  // Prompting the user to enter a number
+
     while(tries_left > 0)  // While the user has at least one try they get to try again
     {
-        std::cout << "Guess an integer between 0 and 10." << std::endl;  // Prompting the user to enter a number
-
         while(!(std::cin >> Guess))  // We try to insert what the user typed into an integer variable. If it fails we want the user to be able to try again. Therefore if the input is not valid we let the user try again
         {
             std::cout << "That's an invalid input! Try again." << std::endl;  // informing the user that the input was invalid and prompt them to try again
@@ -138,11 +138,11 @@ void hello()
 
 int main()
 {
-    //hello();
-    //fibonacci(30);
-    //dicium(100);
-    //coinToss();
-    //coinTossAdvanced(20);
+//    hello();
+//    fibonacci(30);
+//    dicium(100);
+//    coinToss();
+//    coinTossAdvanced(20);
     guessTheNumber();
     return 0;
 }
