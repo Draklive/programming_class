@@ -11,3 +11,10 @@
 	<time.h>
 	<string>
 
+1486848580 source:d:\data\programming\skola\programmeringskurs\programming_class\examples\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<cmath>
+

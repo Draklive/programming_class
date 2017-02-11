@@ -1,7 +1,8 @@
 #include <iostream>
-#include <stdlib.h>
-#include <time.h>
+#include <cstdlib>
+#include <ctime>
 #include <string>
+#include <cmath>
 
 void fibonacci(int Count)
 {
@@ -136,14 +137,19 @@ void hello()
     std::cout << "Hello World!" << std::endl;  // Printing Hello World! to the console
 }
 
+
+using namespace std;
+
 int main()
 {
-//    hello();
-//    fibonacci(30);
-//    dicium(100);
-//    coinToss();
-//    coinTossAdvanced(20);
-    guessTheNumber();
-    return 0;
-}
+// Skriver Hello World! i konsolen
+cout << "Hello Rosendal!" << endl;
+// Dessa kommentarer verkar bara
+// på en linje i taget.
 
+/*
+Om man vill temporärt undvika att kod körs kan man göra det till en kommentar som denna som markerar flera linjer som kommentar.
+cout << "Hello World!" << endl;
+cout << "Skyrim" << endl;
+*/
+}
